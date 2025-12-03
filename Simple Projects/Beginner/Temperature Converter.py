@@ -27,14 +27,14 @@ while is_looping:
         except ValueError:
             print("Invalid temperature. Try again.")
             continue
-        print(f"{c_to_f(x):.2f}°F")
+        print(f"Temperature of {x}°C is {c_to_f(x):.2f}°F")
     elif choice == 2:
         try:
             x = float(input("Temperature in °F: "))
         except ValueError:
             print("Invalid temperature. Try again.")
             continue
-        print(f"{f_to_c(x):.4f}°C")
+        print(f"Temperature of {x}°F is {f_to_c(x):.4f}°C")
     elif choice == 3:
         print("Thank you!")
         break

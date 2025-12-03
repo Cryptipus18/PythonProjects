@@ -2,3 +2,11 @@ TestGame/
 Rock Scissor Paper/
 Random/
 Exercise/
+ASL Project/
+.DS_Store
+.vscode/
+node_modules/
+.venv
+python 3.14/
+SignDETR/
+python 3.12.12/
